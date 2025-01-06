@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+/* body{
+     background: linear-gradient( to right, blue,white); 
+
+} */
+.layout{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(167, 164, 164);
+    display: flex;
+}
+.blgs{
+    width: 80%;
+}
+.blgs-title{
+   line-height: 60px;
+   margin-left: 100px;
+   font-weight: bolder;
+   font-size: 20px;
+   color: rgb(34, 44, 63);
+   cursor: pointer;
+   
+   text-decoration: none;
+
+}
+.navbar{
+    height: 60px;
+    width: 15%;
+   
+    flex-wrap: wrap;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin-top: 20px;
+    
+     
+}
+ .navlink{
+     text-decoration: none;
+     color: rgb(32, 32, 32);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.new-post-btn{
+    height: 33px;
+    width: 100px;
+    background-color:rgb(34, 44, 63);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(34, 44, 63);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.sign-up-page{
+    
+    width: 300px;
+    padding: 20px;
+    /* border: .7px solid skyblue; */
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+    margin:40px auto;
+    border-radius: 5px;
+    background-color: rgb(253, 250, 250);
+    
+   
+}
+.sign-up-item{
+    width: 100%;
+   
+}
+.sign-up-item h2{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+   
+
+}
+.sign-up-item input{
+    width: 100%;
+    padding: 7px;
+    margin-top: 8px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(211, 210, 210);
+    /* box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.2); */
+}
+
+.sign-up-item button{
+    width: 100%;
+    padding: 7px;
+    margin-top: 5px;
+    outline: none;
+    background-color: rgb(4, 126, 85);
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid  rgb(4, 126, 85);
+    cursor: pointer;
+    
+}
+.sign-up-item2 button{
+    width: 100%;
+    padding: 7px;
+    margin-top: 5px;
+    outline: none;
+    background-color: rgb(229, 231, 231);
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+    border: 1px solid  rgb(4, 126, 85);
+    cursor: pointer;
+    
+}
+.sign-up-item textarea{
+    outline: none;
+}
+.list{
+    
+    width: 100%;
+   
+}
+.list-item{
+    width: 40%;
+   
+    margin: auto;
+
+   
+}
+.list-item table {
+    width: 100%;
+
+}
+.list-item table tr{
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);  
+    border-radius: 10px;
+    
+}
+.list-item table tr th{
+   
+    height: 60px;
+    text-align: center;
+   
+
+}
+.list-item table tr td{
+    text-align: center;
+    padding: 10px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top:50px ;
+}
