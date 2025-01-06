@@ -15,7 +15,7 @@ const Item=()=>{
     }
     const handleSubmit=()=>{
 
-        let api="http://localhost:8000/v1/insert";
+        let api="https://todo-server-96h7.onrender.com/v1/insert";
         axios.post(api,data).then((res)=>{
             
             toast(res.data,{
@@ -26,20 +26,20 @@ const Item=()=>{
         })
     }
     const loadData=()=>{
-        let api="http://localhost:8000/v1/load";
+        let api="https://todo-server-96h7.onrender.com/v1/load";
         axios.get(api).then((res)=>{
            setMytodoData(res.data)
         })
     }
     const deleteData=(mid)=>{
-        let api="http://localhost:8000/v1/del"
+        let api="https://todo-server-96h7.onrender.com/v1/del"
         axios.post(api,{myId:mid}).then((res)=>{
             console.log(res.data)
             loadData()
         })
     }
     const handleStatus=(id)=>{
-        let api="http://localhost:8000/v1/status"
+        let api="https://todo-server-96h7.onrender.com/v1/status"
         axios.post(api,{Id:id}).then((res)=>{
             console.log(res.data)
             loadData()
