@@ -11,7 +11,7 @@ mongoose.connect(database).then(()=>{
 }).catch((err)=>{
     console.log("error while mongodb connection ",err)
 })
-const port=8000 ;
+const port=process.env.PORT||7000;
 app.use(express.json())
 app.use(cors())
 app.use("/v1",router)
